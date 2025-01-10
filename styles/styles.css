@@ -72,11 +72,11 @@ body {
   transform: scale(1.1);
 }
 /* future section */
-.future-section{
-    display: flex;
-    justify-content:center;
-    gap: 40px;
-    margin-top: 50px;
+.future-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
 }
 .future-description {
   color: rgba(14, 14, 14, 0.7);
@@ -86,7 +86,7 @@ body {
 .future-card {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
-  color:grey;
+  color: grey;
   box-shadow: 10px 20px 40px;
   padding: 40px 15px 40px 15px;
   width: 280px;
@@ -99,7 +99,7 @@ body {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   box-shadow: 10px 20px 40px;
-  color:grey;
+  color: grey;
   padding: 40px 15px 40px 15px;
   width: 280px;
   height: 250px;
@@ -111,7 +111,7 @@ body {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   box-shadow: 10px 20px 40px;
-  color:grey;
+  color: grey;
   padding: 40px 15px 40px 15px;
   width: 280px;
   height: 250px;
@@ -123,7 +123,7 @@ body {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   box-shadow: 10px 20px 40px;
-  color:grey;
+  color: grey;
   padding: 40px 15px 40px 15px;
   width: 280px;
   height: 250px;
@@ -133,7 +133,7 @@ body {
 }
 
 .future-btn {
-    border: none;
+  border: none;
   border-radius: 8px;
   background: rgb(84, 144, 245);
   color: white;
@@ -144,55 +144,72 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
-.future-card:hover{
-    background: rgba(25, 48, 221, 0.2);
+.future-card:hover {
+  background: rgba(25, 48, 221, 0.2);
 }
-.future-card-two:hover{
-    background: rgb(171, 238, 207);
+.future-card-two:hover {
+  background: rgb(171, 238, 207);
 }
-.future-card-three:hover{
-    background: rgb(250, 233, 187);
+.future-card-three:hover {
+  background: rgb(250, 233, 187);
 }
-.future-card-four:hover{
-    background: rgb(120, 190, 224);
-}
-
-.future-btn-two{
-    border: none;
-    border-radius: 8px;
-    background: rgb(9, 161, 92);
-    color: white;
-    font-size: 15px;
-    margin-top: 18px;
-    font-weight: 600;
-    padding: 8px 18px 8px 18px;
-    border-radius: 8px;
-    cursor: pointer;
+.future-card-four:hover {
+  background: rgb(120, 190, 224);
 }
 
-
-.future-btn-three{
-    border: none;
-    border-radius: 8px;
-    background: rgb(255, 194, 57);
-    color: white;
-    font-size: 15px;
-    padding-bottom: 30px;
-    font-weight: 600;
-    padding: 8px 18px 8px 18px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-.future-btn-four{
-    border: none;
-    border-radius: 8px;
-    background: rgb(58, 56, 213);
-    color: white;
-    font-size: 15px;
-    padding-bottom: 30px;
-    font-weight: 600;
-    padding: 8px 18px 8px 18px;
-    border-radius: 8px;
-    cursor: pointer;
+.future-btn-two {
+  border: none;
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  color: white;
+  font-size: 15px;
+  margin-top: 18px;
+  font-weight: 600;
+  padding: 8px 18px 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
+.future-btn-three {
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+  color: white;
+  font-size: 15px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  padding: 8px 18px 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.future-btn-four {
+  border: none;
+  border-radius: 8px;
+  background: rgb(58, 56, 213);
+  color: white;
+  font-size: 15px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  padding: 8px 18px 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/*yunus-section */
+.yunus-section {
+  background-image: url(../images/quote-bg.png);
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  background-size: 60px;
+  margin-top: 50px;
+  height: 200px;
+}
+.yunus-title {
+  padding: 25px 10px 0 10px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.name-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
