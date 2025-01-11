@@ -203,6 +203,11 @@ body {
   background-size: 60px;
   margin-top: 50px;
   height: 200px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.yunus-section:hover{
+  transform: scale(1.03);
 }
 .yunus-title {
   padding: 25px 10px 0 10px;
@@ -219,7 +224,9 @@ body {
   padding: 30px;
   border-radius: 10px;
 }
-th,td,table {
+th,
+td,
+table {
   text-align: left;
   padding: 10px;
   border: 1px solid black;
@@ -233,15 +240,93 @@ th {
   font-size: 20px;
   font-weight: 600;
 }
-td{
-    font-size: 14px;
-font-weight: 500;
+td {
+  font-size: 14px;
+  font-weight: 500;
 }
-select{
-font-size: 14px;
-font-weight: 500;
-border: 1px solid rgb(14, 14, 14);
-padding: 10px;
-border-radius: 4px;
-background: rgba(9, 161, 92, 0.1);
+select {
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid rgb(14, 14, 14);
+  padding: 10px;
+  border-radius: 4px;
+  background: rgba(9, 161, 92, 0.1);
+}
+/* news section */
+.satelite-section {
+  display: flex;
+  border-radius: 24px;
+  height: 300px;
+  background: rgb(255, 255, 255);
+  padding: 20px 20px;
+  gap: 40px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.satelite-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+}
+.satelite-pic {
+  border-radius: 15px;
+  width: 350px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.satelite-btn {
+  border: none;
+  color: white;
+  background: rgb(0, 106, 80);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.satelite-description {
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* donate section */
+.donate-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.donate {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 0 40px 0 40px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  font-size: 25px;
+  cursor: pointer;
+}
+.donate:hover{
+  background: rgb(198, 228, 214);
+}
+.donate-title{
+  margin-top: 50px;
+  text-align: center;
+}
+.donate-two{
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 0 40px 0 40px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  font-size: 25px;
+  cursor: pointer;
+  background: rgb(198, 228, 214);
+}
+.input-fild{
+  margin-top: 50px;
+  text-align: center;
+}
+input{
+  border: 1px solid white;
+  background-color: white;
+  padding:10px;
+  width: 750px;
+  text-align: center;
+  margin-bottom: 20px;
 }
